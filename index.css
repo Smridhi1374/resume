@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    color: #ffff;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(59, 57, 64);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+}
+nav ul li a:hover{
+    color: rgb(177, 225, 225);
+}
+.left{
+    font-size: 2rem;
+    
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 80px 0; */
+    align-items: center;
+    position: relative;
+}
+.first >div{
+    width: 30%;
+}
+
+.rightsection img{
+    width: 90%;
+    height: 90%;
+    margin: 20px 30px;
+}
+.leftsection{
+    font-size: 3rem;
+}
+.second{
+    max-width: 80vw;
+    margin: auto;
+}
+main hr{
+    border: 0;
+    background: rgb(196, 196, 244);
+    height: 1.2px;
+    margin: 40px 80px;
+}
+.gray{
+    color: #cfd4dd;
+}
+footer{
+    background-color: #cfd4dd;
+    padding: 70px 0;
+    /* height: 233px; */
+}
+.flex{
+    display: flex;
+    padding: 23px 122px;
+    /* height: 233px; */
+    justify-content: space-evenly;
+}
+footer ul{
+    list-style: none;
+    color: black;
+
+}
+.flex >div {
+    width: 220px;
+}
+.icon{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 0;
+    
+}
+.icon a img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+#button{
+    margin: 20px ;
+    padding-left: 90px;
+}
+#button .b1{
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+    background-color: #cfd4dd;
+}
+#button .b2{
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+    background-color: #e3dfdf;
+}
+.certificates{
+    display: flex;
+    align-items: center;
+    margin: 30px 30px;
+    padding: 50px;
+}
+.certificates ul{
+    margin-left: 50px;
+}
+
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+    /* display: flex; */
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom:  10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin: 50px 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	/* color: #ffffff; */
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+@media(max-width: 767px){
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+}
+}
+.fa-instagram {
+    
+  background-image:url('https://cdn-icons-png.flaticon.com/128/2111/2111463.png');
+  color: white;
+  background-size:40px 40px ;
+  background-repeat: no-repeat;
+}
+.fa-facebook{
+    background-image:url('https://cdn-icons-png.flaticon.com/128/5968/5968764.png');
+  color: white;
+  background-size:40px 40px ;
+  background-repeat: no-repeat;
+}
+.fa-github{
+    background-image:url('https://cdn-icons-png.flaticon.com/128/733/733553.png');
+    color: white;
+    background-size:40px 40px ;
+    background-repeat: no-repeat;
+}
+.fa-email{
+    background-image:url('https://cdn-icons-png.flaticon.com/128/5968/5968534.png');
+    color: white;
+    background-size:40px 40px ;
+    background-repeat: no-repeat;
+}
+.fa-linkedin{
+    background-image:url('https://cdn-icons-png.flaticon.com/128/3536/3536505.png');
+    color: white;
+    background-size:40px 40px ;
+    background-repeat: no-repeat;
+}
+
+.row{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.icon1 a{
+    display: block;
+    
+	height: 20px;
+	width: 20px;
+	background-color: rgba(255,255,255,0.2);
+	margin: 0 30px 30px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	/* color: #ffffff; */
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
